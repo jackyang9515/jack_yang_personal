@@ -1,0 +1,65 @@
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 600px;
+    width: 97%;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 140px;
+    border-radius: 8%;
+}
+
+.display > div {
+    flex: 48%;
+}
+
+.display > img {
+    flex: 40%;
+}
+
+.contact_background {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: 600px;
+    position: relative;
+    top: 150px;
+    border-radius: 8%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_info {
+    text-align: center;
+}
+
+.gap {
+    padding: 100px 0 0 0;
+}
+
+.icon {
+    height: 50px;
+}
+
+.picture {
+    height: 550px;
+    width: 30%;
+    padding: 20px;
+}
+
+
+#second_paragraph {
+    padding: 0 0 0 50px;
+}
+
+.item {
+    /*choose a font*/
+    font-weight: 500;
+}
+.text{
+    padding: 0 0 0 100px;
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal_website/static/css/main.ad4da055.css",
+    "main.js": "/personal_website/static/js/main.19dc5813.js",
+    "static/media/terminal.webp": "/personal_website/static/media/terminal.7f194aa0cc2322db0586.webp",
+    "static/media/selfie.jpeg": "/personal_website/static/media/selfie.6a1b9704cf39accbefd1.jpeg",
+    "static/media/graduation_friends.jpeg": "/personal_website/static/media/graduation_friends.9fb81cb865b74da6a0a0.jpeg",
+    "static/media/sunset_at_bahamas.jpeg": "/personal_website/static/media/sunset_at_bahamas.2f56596ee41bad7a14fe.jpeg",
+    "static/media/learn_spanish.jpg": "/personal_website/static/media/learn_spanish.377fc9bd8bc3e53921ee.jpg",
+    "static/media/onitama.jpeg": "/personal_website/static/media/onitama.7417bbc7c7894fb0b3a9.jpeg",
+    "static/media/beige_background.webp": "/personal_website/static/media/beige_background.e5e775441c5ce4108a0a.webp",
+    "static/media/three_musk.jpeg": "/personal_website/static/media/three_musk.be959dbda3ec9dc908d3.jpeg",
+    "static/media/linkedin_icon.svg": "/personal_website/static/media/linkedin_icon.32e20978a96ff60c1fdc5a8389e532ba.svg",
+    "index.html": "/personal_website/index.html",
+    "main.ad4da055.css.map": "/personal_website/static/css/main.ad4da055.css.map",
+    "main.19dc5813.js.map": "/personal_website/static/js/main.19dc5813.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad4da055.css",
+    "static/js/main.19dc5813.js"
+  ]
+}

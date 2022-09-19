@@ -1,7 +1,6 @@
 //import logo from './logo.svg';
 //import Button from './Button';
 import './App.css';
-import selfie from './selfie.jpeg';
 import React, {Component} from 'react';
 import Paragraph from './paragraph';
 

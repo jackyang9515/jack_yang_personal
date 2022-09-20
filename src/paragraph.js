@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
 import './paragraph.css';
-import graduation from './graduation_friends.jpeg';
-import sunset from './sunset_at_bahamas.jpeg';
+import graduation from './graduation_friends.jpg';
+import sunset from './sunset_at_bahamas.jpg';
 import spanish from './learn_spanish.jpg';
-import three_musk from './three_musk.jpeg';
-import onitama from './onitama.jpeg';
+import three_musk from './three_musk.jpg';
+import onitama from './onitama.jpg';
 import linkedin from './linkedin_icon.svg';
 import git from './github_icon.png';
-import terminal from './terminal.webp';
+import terminal from './terminal.jpg';
 
 function Paragraph (props) {
 

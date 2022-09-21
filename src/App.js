@@ -24,7 +24,7 @@ class App extends Component {
     }
 
     handleResume = () => {
-      window.open('https://docs.google.com/document/d/1RzAe1Ny9mSwTw3sd3JpxXj1LMpEOG5SVvnt5QSg7JR0/edit?usp=sharing');
+      window.open('https://docs.google.com/document/d/1iSsuO7NQ9IEXvcCJbrZwuR-t5u4igXbPkrSxxTcIC0c/edit');
     }
 
     handleContactMe = () => {
@@ -41,15 +41,15 @@ class App extends Component {
             <p className="headbar_element" id="name">Jack Yang</p>
 
             {/*button about me*/}
-            <button className="headbar_element top_button" onClick={this.handleAboutMe}>About me</button>
+            <button className="headbar_element top_button" onClick={this.handleAboutMe}>About Me</button>
             <p className="headbar_element" id="divider">|</p>
 
             {/*button contact me, shows my contact info*/}
-            <button className="headbar_element top_button" onClick={this.handleContactMe}>Contact me</button>
+            <button className="headbar_element top_button" onClick={this.handleContactMe}>Contact Me</button>
             <p className="headbar_element" id="divider">|</p>
 
             {/*button resume, redirects user to my google doc*/}
-            <button className="headbar_element top_button" onClick={this.handleResume}>Resume</button>
+            <button className="headbar_element top_button" onClick={this.handleResume}>My CV</button>
             <p className="headbar_element" id="divider">|</p>
 
             {/*button github, redirects user to my git acc*/}

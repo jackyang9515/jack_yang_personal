@@ -1,8 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Home from './Home';
+import OnitamaBoardGame from './OnitamaBoardGame'
+import Myshell from './Myshell'
+import ThreeMusketeers from './ThreeMusketeers'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import reportWebVitals from './reportWebVitals';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Home />} />
+          <Route path="Myshell" element={<Myshell />} />
+          <Route path="ThreeMusketeers" element={<ThreeMusketeers />} />
+          <Route path="OnitamaBoardGame" element={<OnitamaBoardGame />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

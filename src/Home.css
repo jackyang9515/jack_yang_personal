@@ -1,0 +1,347 @@
+:root {
+  --bg-color: black;
+  --font-color: white;
+}
+
+.homePage {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.hackerPic {
+  max-width: 40%;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 2; /* Stay on top */
+  align-self: center;
+  left: 10px;
+  background-color: var(--bg-color); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.resource {
+  height: 50px;
+}
+
+.intro {
+  color: var(--font-color);
+  align-self: center;
+  position: relative;
+  left: 20%;
+  background-color: black;
+}
+
+.scrollDownButton {
+  margin-right: 10px;
+  background-color: var(--font-color); /*Make it so the button's bg color is white, and font color is white*/
+  color: var(--bg-color);
+  border-color: var(--bg-color);
+  border-width: thin;
+  height: 50px;
+  width: 45%;
+}
+
+.scrollDownButton:hover {
+  cursor: pointer;
+  background-color: var(--bg-color); /*Reverse the color upon hovering*/
+  color: var(--font-color);
+  border-color: var(--font-color);
+}
+
+#name {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 150%;
+  z-index: 2;
+  background-color: var(--bg-color); 
+  color: var(--font-color);
+  border-color: var(--bg-color);
+}
+
+#name:hover {
+  cursor: pointer;
+  background-color: var(--font-color); /*Reverse the color upon hovering*/
+  color: var(--bg-color);
+}
+
+h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--font-color); }
+}
+
+
+/*Second section*/
+.aboutMe {
+  height: 100vh;
+  position: relative;
+}
+
+.aboutMeBox {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+
+  height: 90%;
+  width: 90%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--bg-color);
+}
+
+.aboutMeRight {
+  height: 80%;
+  width: 45%;
+
+  position: absolute;
+  top: 25%;
+  left: 52%;
+}
+
+.gradPicture {
+  height: 70%;
+  width: 45%;
+
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
+
+.aboutMeParagraph {
+  line-height: 1.6;
+}
+
+.cvButton {
+  height: 9%;
+  width: 20%;
+
+  background-color: var(--font-color);
+  border-color: var(--bg-color);
+}
+
+.cvButton:hover {
+  cursor: pointer;
+  border-color: var(--font-color);
+  background-color: darkgrey;
+  color: var(--font-color);
+}
+
+
+/*Third section*/
+.myProjects {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  position: relative;
+}
+
+.myProjectsTitle {
+  color: var(--font-color);
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+
+.myProjectsDisplay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-color: var(--bg-color);
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  height: 50%;
+  width: 80%;
+}
+
+.projectButtonHolder {
+  height: 100%;
+  width: 30%;
+  background-color: var(--font-color);
+  position: relative;
+}
+
+.projectButton {
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  position: relative;
+}
+
+.projectContext {
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  opacity: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectContext:hover {
+  opacity: 0.8;
+}
+
+.projectExplaination {
+  width: 90%;
+}
+
+.viewButton {
+  color: var(--font-color);
+}
+
+
+/*Fourth section*/
+.contactMe {
+  height: 100vh;
+  position: relative;
+}
+
+.contactMeSec {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+
+  height: 90%;
+  width: 90%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--bg-color);
+}
+
+.algunquinPic {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+
+  height: 90%;
+  width: 40%;
+}
+
+.contactMeForm {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  position: absolute;
+  left: 50%;
+  top: 35%;
+
+  width: 50%;
+  height: 50%;
+}
+
+.inputPrompt{
+  width: 45%;
+  height: 10%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--bg-color);
+  margin-right: 24px;
+  font-size: large;
+}
+
+.textareaPrompt {
+  font-size: large;
+  width: 95%;
+  height: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--bg-color);
+}
+
+.submitButton {
+  width: 20%;
+  height: 15%;
+
+  background-color: var(--font-color);
+  border-color: var(--bg-color);
+}
+
+.submitButton:hover {
+  cursor: pointer;
+  border-color: var(--font-color);
+  background-color: darkgrey;
+  color: var(--font-color);
+}
+
+.contactMeInfo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+
+/*Backward button style*/
+.backwardButton {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+
+  height: 10%;
+  width: 6%;
+}
+
+button {
+  font-size: 110%;
+}
+
+.projButton {
+  height: 9%;
+  width: 25%;
+
+  background-color: var(--font-color);
+  border-color: var(--bg-color);
+}
+
+.projButton:hover {
+  cursor: pointer;
+  border-color: var(--font-color);
+  background-color: darkgrey;
+  color: var(--font-color);
+}
+
+.threeMuskPic {
+  height: 70%;
+  width: 35%;
+
+  position: absolute;
+  top: 15%;
+  left: 3%;
+}
